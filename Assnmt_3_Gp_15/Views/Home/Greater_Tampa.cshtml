@@ -1,0 +1,104 @@
+﻿@*@{
+    ViewData["Title"] = "Data";
+}*@
+@*<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<p>Use this area to provide additional information.</p>*@
+
+    <html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="~/style/layout.css">
+        <style>
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+                border-spacing: 0px;
+            }
+
+            td, th {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 10px;
+            }
+
+            /*tr:nth-child(even) {
+                background-color: #dddddd;
+            }*/
+        </style>
+    </head>
+    <body>
+
+        <div class="header">
+            <img src="~/images/muma.jpeg" align="Left" alt="muma-image" width="250" height="110">
+            <h1> USF -  MUMA COLLEGE OF BUSINESS</h1>
+        </div>
+
+        <div class="p">
+            <h2>Assignment3_LookandFeel for ISM6225 - Distributed Information Systems</h2>
+        </div>
+
+        <div class="topnav">
+            <a href="/Home/Index">Home</a>
+            <a href="/Home/Tampa">Greater Tampa</a>
+            <a href="/Home/Orlando">Greater Orlando</a>
+            <a href="/Home/Miami">Greater Miami</a>
+            <a href="need our git link here">GitHub</a>
+            <a href="/Home/AboutProject">About Project</a>
+        </div>
+
+        <h1>Social Security Administartion Office Information</h1>
+
+        <!--Src: https://catalog.data.gov/dataset/hospital-general-information -->
+
+
+        <table style="width:100%">
+            <tr>
+                <th align="left"> Office Name</th>
+                <th align="left">Address</th>
+                <th align="left">City</th>
+                <th align="left">Zip</th>
+                <th align="left">Phone Number</th>
+                <th align="left">Office Hours</th>
+
+            </tr>
+            <tr>
+                <td>TAMPA FL</td>
+                <td>3415 E FRONTAGE ROAD</td>
+                <td>TAMPA</td>
+                <td>33607</td>
+                <td>(866) 331-2317</td>
+                <td>M-F 9.00 AM - 4.00 PM</td>
+            </tr>
+            <tr>
+                <td>CARROLLWOOD FL</td>
+                <td>4010 GUNN HIGHWAY</td>
+                <td>TAMPA</td>
+                <td>33618</td>
+                <td>(855) 433-5873</td>
+                <td>M-F 9.00 AM - 4.00 PM</td>
+            </tr>
+            <tr>
+                <td>CLEARWATER FL</td>
+                <td>2340 DREW STREET</td>
+                <td>CLEARWATER</td>
+                <td>33765</td>
+                <td>(888) 397-5325</td>
+                <td>M-F 9.00 AM - 4.00 PM</td>
+            </tr>
+
+            <tr>
+                <td>ST PETERSBURG FL</td>
+                <td>30 DR MLK ST S</td>
+                <td>ST PETERSBURG</td>
+                <td>33701</td>
+                <td>(866) 613-3965</td>
+                <td>M-F 9.00 AM - 4.00 PM</td>
+            </tr>
+
+
+        </table>
+
+    </body>
+    </html>

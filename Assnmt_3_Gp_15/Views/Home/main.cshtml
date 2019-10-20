@@ -1,0 +1,65 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@*@{
+}*@
+<html>
+
+<head >
+    <link rel="stylesheet" type="text/css" href="~/style/layout.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="~/images/muma.jpeg" align="Left" alt="muma-image" width="250" height="110">
+        <h1> USF -  MUMA COLLEGE OF BUSINESS</h1>
+    </div>
+
+    <div class="p">
+        <h2>Assignment3_LookandFeel for ISM6225 - Distributed Information Systems</h2>
+    </div>
+
+    <div class="topnav">
+        <a href="/Home/Index">Home</a>
+        <a href="/Home/Tampa">Greater Tampa</a>
+        <a href="/Home/Orlando">Greater Orlando</a>
+        <a href="/Home/Miami">Greater Miami</a>
+        <a href="need our git link here">GitHub</a>
+        <a href="/Home/AboutProject">About Project</a>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <img src="~/images/ssa.png" alt="Social Security Administration" >
+            @*<p> <b>Build an e-portfolio to create an excellent first impression</b> </p>*@
+        </div>
+
+        <div >
+            <h2><ins>Use of This Website</ins></h2>
+            <br/>
+            This website provides addresses of local Social Security Administration offices around you.
+            International students have to apply for SSN as soon as they join any university for studies. Please click on
+            the area link that is closest to you or based on living area. Thank You!
+        </div>
+    </div>
+</body>
+
+</html>
+

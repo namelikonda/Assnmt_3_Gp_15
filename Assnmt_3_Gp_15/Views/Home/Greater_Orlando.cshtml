@@ -1,0 +1,100 @@
+﻿@*@{
+        ViewData["Title"] = "Data";
+    }*@
+@*<h2>@ViewData["Title"]</h2>
+    <h3>@ViewData["Message"]</h3>
+
+    <p>Use this area to provide additional information.</p>*@
+
+<html>
+
+
+<head>
+    <link rel="stylesheet" type="text/css" href="~/style/layout.css">
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            border-spacing: 0px;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 10px;
+        }
+
+        /*tr:nth-child(even) {
+                background-color: #dddddd;
+            }*/
+    </style>
+</head>
+
+
+<body>
+
+    <div class="header">
+        <img src="~/images/muma.jpeg" align="Left" alt="muma-image" width="250" height="110">
+        <h1> USF -  MUMA COLLEGE OF BUSINESS</h1>
+    </div>
+
+    <div class="p">
+        <h2>Assignment3_LookandFeel for ISM6225 - Distributed Information Systems</h2>
+    </div>
+
+    <div class="topnav">
+        <a href="/Home/Index">Home</a>
+        <a href="/Home/Tampa">Greater Tampa</a>
+        <a href="/Home/Orlando">Greater Orlando</a>
+        <a href="/Home/Miami">Greater Miami</a>
+        <a href="need our git link here">GitHub</a>
+        <a href="/Home/AboutProject">About Project</a>
+    </div>
+
+    <h1>Social Security Administartion Office Information</h1>
+
+    <!--Src: https://catalog.data.gov/dataset/hospital-general-information -->
+
+
+    <table style="width:100%">
+        <tr>
+            <th align="left"> Office Name</th>
+            <th align="left">Address</th>
+            <th align="left">City</th>
+            <th align="left">Zip</th>
+            <th align="left">Phone Number</th>
+            <th align="left">Office Hours</th>
+
+        </tr>
+        <tr>
+            <td>KISSIMMEE FL</td>
+            <td>1201 E OAK ST</td>
+            <td>KISSIMMEE</td>
+            <td>34744</td>
+            <td>(866) 614-4754</td>
+            <td>M-F 9.00 AM - 4.00 PM</td>
+        </tr>
+        <tr>
+            <td>ORLANDO FL</td>
+            <td>5520 GATLIN AVE</td>
+            <td>ORLANDO</td>
+            <td>32812</td>
+            <td>(866) 964-6146</td>
+            <td>M-F 9.00 AM - 4.00 PM</td>
+        </tr>
+        <tr>
+            <td>LAKE MARY FL</td>
+            <td>101 COMMERCE ST</td>
+            <td>LAKE MARY</td>
+            <td>32746</td>
+            <td>(866) 964-7379</td>
+            <td>M-F 9.00 AM - 4.00 PM</td>
+        </tr>
+
+
+
+    </table>
+
+</body>
+</html>
